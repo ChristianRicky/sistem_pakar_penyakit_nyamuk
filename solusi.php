@@ -19,7 +19,7 @@
     <?php include ('navbar.php'); ?>
     
     <main class="batas-atas">
-        <div class="card text-white bg-info mb-3">
+        <div class="card text-white bg-success mb-3">
           <h5 class="card-header">Solusi</h5>
           <div class="card-body text-left ukuran-20">
 
@@ -27,7 +27,6 @@
 
                 <?php
                 include ('koneksi.php');
-                //$kode='m01';
                 session_start();
                 echo "<p>Nama : ".$_SESSION['nama']."</p>";
                 echo "<p>Umur : ".$_SESSION['umur']."</p>";
@@ -54,7 +53,6 @@
                      echo "<center><p><strong style='color:red'>SISTEM TIDAK MENEMUKAN JAWABAN !</strong></p></center><hr>";
                      ?>
 
-                     <!------------------------MASUKAN KEPADA SISTEM -------------------------------->
                         <div class="card bg-dark">
                              <h5 class="card-header">Pengguna menambah fakta baru</h5>
                             <div class="card-body">
@@ -81,13 +79,12 @@
                               <input type="submit" class="btn btn-info" name="masukan">
                             </form>    
                             </div> 
-                        </div>  
-                        <!------------------------MASUKAN KEPADA SISTEM -------------------------------->                      
+                        </div>                     
                      <?php 
                 }
                 
                 else{
-                    echo "<p>Maka kamu harus mengambil prodi : <strong style='color:green'>".$row['isi_solusi']."</strong></p>";
+                    echo "<p>Kemungkinan penyakit yang kamu derita : <strong style='color:yellow'>".$row['isi_solusi']."</strong></p>";
                 }
                 
                 ?>

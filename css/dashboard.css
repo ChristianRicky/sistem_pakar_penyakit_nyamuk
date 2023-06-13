@@ -49,12 +49,12 @@ body {
 }
 
 .sidebar .nav-link.active {
-  color: #007bff;
+  color: green;
 }
 
 .sidebar .nav-link:hover .feather,
 .sidebar .nav-link.active .feather {
-  color: inherit;
+  color: green;
 }
 
 .sidebar-heading {
@@ -67,7 +67,7 @@ body {
  */
 
 [role="main"] {
-  padding-top: 48px; /* Space for fixed navbar */
+  padding-top: 48px; 
 }
 
 /*
@@ -89,12 +89,11 @@ body {
 }
 
 .form-control-dark {
-  color: #fff;
+  color: #000000;
   background-color: rgba(255, 255, 255, .1);
   border-color: rgba(255, 255, 255, .1);
 }
 
 .form-control-dark:focus {
-  border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }

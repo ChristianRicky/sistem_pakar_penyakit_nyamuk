@@ -29,8 +29,7 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <button class="btn btn-lg btn-info btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2018</p>
+      <button class="btn btn-lg btn-warning btn-block" type="submit">Sign in</button>
     </form>
   </body>
 </html>

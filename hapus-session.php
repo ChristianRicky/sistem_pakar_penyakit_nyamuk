@@ -1,6 +1,6 @@
  <?php
 session_start();
 unset($_SESSION['nama']);
-unset($_SESSION['umur']); //matiin session username nya penulis
-header('location:index.php'); //direct ke index.php
+unset($_SESSION['umur']); 
+header('location:index.php');
 ?>

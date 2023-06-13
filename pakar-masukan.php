@@ -18,11 +18,11 @@
 
   <body>
 
-    <nav class="navbar navbar-dark fixed-top bg-info flex-md-nowrap p-0 shadow">
+    <nav class="navbar navbar-dark fixed-top bg-success flex-md-nowrap p-0 shadow">
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Dashboard Pakar</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="proseslogout.php">Sign out</a>
+          <a class="nav-link text-danger" href="proseslogout.php">Sign out</a>
         </li>
       </ul>
     </nav>

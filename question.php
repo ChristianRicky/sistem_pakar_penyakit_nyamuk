@@ -14,12 +14,19 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+  body {
+    background-image: url("image/vector_background_1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover
+  }
+</style>
 </head>
 <body>
     <?php include ('navbar.php'); ?>
     
     <main class="batas-atas">
-        <div class="card text-white bg-info mb-3">
+        <div class="card text-white bg-success mb-3">
           <h5 class="card-header">Pertanyaan Diagnosis</h5>
           <div class="card-body text-center ukuran-30">
 
@@ -27,7 +34,7 @@
 
                 <?php
                 include ('koneksi.php');
-                $kode='m1';
+                $kode='b1';
                 session_start();
                 echo "<p>Hai, ".$_SESSION['nama']." (".$_SESSION['umur']." th)</p>";
                     
@@ -49,19 +56,11 @@
                         answer($kode);                    
                     ?>
                     
-                   
                     
                 </div>
-                
-
             </form>
-
           </div>
         </div>
-    
-
-
-
     </main>
 
     <!-- Bootstrap core JavaScript

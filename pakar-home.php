@@ -18,11 +18,11 @@
 
   <body>
 
-    <nav class="navbar navbar-dark fixed-top bg-info flex-md-nowrap p-0 shadow">
+    <nav class="navbar navbar-dark fixed-top bg-success flex-md-nowrap p-0 shadow">
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Dashboard Pakar</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="proseslogout.php">Sign out</a>
+          <a class="nav-link text-danger" href="proseslogout.php">Sign out</a>
         </li>
       </ul>
     </nav>
@@ -56,9 +56,9 @@
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleFormControlInput2">Masukan fakta :</label>
-				    <input type="text" name="fakta" class="form-control" id="exampleFormControlInput1" placeholder="contoh : Suka memperbaiki komputer">
+				    <input type="text" name="fakta" class="form-control" id="exampleFormControlInput1" placeholder="contoh : Mengalami penyakit nyamuk tipe lain">
 				  </div>
-				  <input type="submit" class="btn btn-info" name="simpan1">
+				  <input type="submit" class="btn btn-warning" name="simpan1">
 				</form>			    
 			  </div>
 			</div>
